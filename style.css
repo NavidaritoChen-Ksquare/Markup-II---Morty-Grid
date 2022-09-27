@@ -1,0 +1,72 @@
+
+.container{
+    background-color: #202329;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cards{
+    margin: 20px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+    
+}
+
+.card{
+    display: flex;
+    background-color: #3C3E44;
+    border-radius: 20px;
+    margin: 20px;
+  
+}
+
+.card_content{
+   margin-left: 15px;
+}
+
+.card_image{
+    width: 35%;
+    display: block;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.name{
+    color: white;
+    font-size: 30px;
+    margin-bottom: -10px;
+    font-weight: bold;
+}
+
+.race{
+    color: white;
+    font-size: 20px;
+}
+
+.info_title{
+    color: gray;
+    font-size: 20px;
+    margin-bottom: -10px;
+}
+
+.info_data{
+    color: white;
+    font-size: 20px;
+}
+
+.dot_alive {
+    height: 15px;
+    width: 15px;
+    background-color: greenyellow;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot_dead{
+    height: 15px;
+    width: 15px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+}
